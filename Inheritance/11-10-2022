@@ -1,1 +1,66 @@
+//WAP to create two class one class do the process of fibonacci series and 
+in second class find out the graeter between two no . From second class display both the operation.
 
+package Inheritance;
+
+import java.util.Scanner;
+
+public class single
+{
+
+	public static void process()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("\n Enter The Number ");
+		int num,xyz,sdg = 0,res = 1;
+		num = sc.nextInt();
+		for(int i = 1; i <= num; i++)							
+        {
+            xyz = sdg;								
+            sdg = res;
+            res = xyz + sdg;
+            System.out.print(xyz+" \t\n ");          
+        }
+	}
+	
+}
+
+
+
+
+package Inheritance;
+
+import java.util.Scanner;
+
+public class single1 extends single {
+
+	public static void main(String[] args) 
+	{
+		single1 ob=new single1();
+		ob.process();
+		ob.greater();
+		
+	}
+	
+	public static void greater()
+	{
+		Scanner sc = new Scanner(System.in);
+		int num1,num2;
+		System.out.println("\n Enter The 1st Number ");
+		num1 = sc.nextInt();
+		System.out.println("\n Enter The 2nd Number ");
+		num2 = sc.nextInt();
+		
+		if(num1>num2)
+		{
+			System.out.println("\n The greater Number is :"+num1);
+		}
+		else
+		{
+			System.out.println("\n The greater Number is :"+num2);
+		}
+		
+		
+	}
+
+}
