@@ -80,9 +80,9 @@ public class LogicalOperator extends Operator
 
 
 
-package Assignment_11_10_Inheritance;
+package Inheritance;
 
-public class TernaryOperator extends AcceptValue
+public class TernaryOperator extends Operator
 {
 	public  static void ternary_operator()
 	{
@@ -98,7 +98,7 @@ public class TernaryOperator extends AcceptValue
 
 package Inheritance;
 
-public class Bitwise extends Opreator
+public class Bitwise extends Operator
 {
 
 	
@@ -115,7 +115,7 @@ public class Bitwise extends Opreator
 
 package Inheritance;
 
-public class Hierarchical_Inheritance {
+public class Hierarchical {
 
 	public static void main(String[] args) 
 	{
