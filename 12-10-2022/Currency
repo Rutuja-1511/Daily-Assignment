@@ -1,1 +1,80 @@
+//WAP to convert the currency using interface//
 
+package Inheritance;
+
+public interface Rupee {
+
+	public void demo();
+	}
+
+
+import java.util.Scanner;
+
+public class dollar implements Rupee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		dollar obj = new dollar();
+		obj.demo();
+	}
+
+	@Override
+	public void demo() {
+		// TODO Auto-generated method stub
+		double rupee, doll;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the value of Dollor:");
+		doll = sc.nextDouble();
+		rupee = doll * 82.28;
+		System.out.println("Converted value of Dollor into Rupees = " +rupee+" Rs");
+
+	}
+
+}
+
+
+import java.util.Scanner;
+
+public class euro implements Rupee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		euro obj2 = new euro();
+		obj2.demo();
+	}
+
+	@Override
+	public void demo() {
+		// TODO Auto-generated method stub
+		double rupee, ero;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the value of Euro:");
+		ero = sc.nextDouble();
+		rupee = ero * 79.79;
+		System.out.println("Converted value of Euro into Rupees= " + rupee + " Rs");
+	}
+
+
+
+import java.util.Scanner;
+
+public class pound implements Rupee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		pound obj1 = new pound();
+		obj1.demo();
+	}
+
+	@Override
+	public void demo() {
+		// TODO Auto-generated method stub
+		double rupee, pou;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the value of Pound:");
+		pou = sc.nextDouble();
+		rupee = pou * 90.95;
+		System.out.println("Converted value of Pound into Rupees = " + rupee + " Rs");
+	}
+
+}
