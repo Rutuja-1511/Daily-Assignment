@@ -1,0 +1,11 @@
+// WAP using interface to create a process where you have to do the following process:
+1:Display the Basic info of an employee (name,phno,email,address,DOB)
+2:Display the Details of emp_info (Emp_id,dep,des,location,salary)
+Interface 1 method ()
+
+2 class same interface
+
+1 st class(Basic info)
+2 nd class(EMP Info)//
+
+
