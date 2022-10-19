@@ -1,0 +1,64 @@
+package Daily_Assignment;
+
+import java.util.Scanner;
+
+public class WithModi
+{
+	Scanner sc=new Scanner(System.in);
+	
+	public int a, b;         // declare public var
+	private int c;         // declare private var
+	protected int d;
+	public void setX(int x)    //set method
+	{
+		this.c = x;
+	}
+	public int getX()          //get method
+	{
+		return c;
+	}
+	
+	protected void sum()
+	{                                    //protected void
+		System.out.println("Enter the value of a :");           
+		a=sc.nextInt();
+		System.out.println("Enter the value of b :");
+		b=sc.nextInt();
+		int Sum=a+b;
+		System.out.println("The addition Of two Numbers is :"+Sum);
+        int add=c+a+b;
+        System.out.println("The addition of three Numbers is :"+add);
+	}
+
+	int sum_T;
+	public void addition() 
+	{                                    // public void
+		System.out.println("Enter the value of a :");
+		a=sc.nextInt();
+		System.out.println("Enter the value of b :");
+		b=sc.nextInt();
+		System.out.println("Enter the value of y :");
+		d=sc.nextInt();
+		sum_T=d+a+b;
+		System.out.println("The addition of all num :"+sum_T);
+	}
+
+}
+
+
+
+package Daily_Assignment;
+
+public class WithoutModi extends WithModi
+{
+	void Methods(){
+		sum();
+		addition();
+}
+public static void main(String[] args) 
+{
+	WithoutModi w=new WithoutModi();
+	w.setX(4);
+	w.Methods();
+}
+}
