@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>table</title>
+</head>
+
+<body>
+
+    <h2>First Table</h2>
+    <table border="1">
+        <tr>
+            <td rowspan="2"></td>
+            <th colspan="2">average</th>
+            <th rowspan="2">other category</th>
+        </tr>
+        <tr>
+            <th>height</th>
+            <th>weight</th>
+        </tr>
+        <tr>
+            <th>males</th>
+            <td>height</td>
+            <td>0.003</td>
+            <td>yyy</td>
+        </tr>
+        <tr>
+            <th>female</th>
+            <td>1.9</td>
+            <td>0.002</td>
+            <td>xxx</td>
+        </tr>
+    </table>
+
+    <h2>Second Table</h2>
+    <table border="1">
+        <tr>
+            <th>class</th>
+            <th>Student</th>
+            <th> test grade</th>
+        </tr>
+        <tr>
+            <th rowspan="4">A</th>
+            <td rowspan="2">1</td>
+            <td>96</td>
+        </tr>
+        <tr>
+            <td>87</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2</td>
+            <td>83</td>
+        </tr>
+        <tr>
+            <td>85</td>
+        </tr>
+
+    </table>
+</body>
+</html>
