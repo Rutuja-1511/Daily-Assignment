@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Insert title here</title>
+</head>
+<frameset rows="20%,80%">
+    <frame src="colurs.html" />
+    <frameset cols="20%,80%">
+        <frame src="listofColur.html" />
+        <frameset rows="30%,30%,40%">
+            <frameset cols="60%,40%">
+                <frame src="" name="r" />
+                <frame src="" name="pi" />
+            </frameset>
+            <frameset cols="20%,80%">
+                <frame src="" name="bl" />
+                <frame src="" name="gr" />
+            </frameset>
+            <frameset cols="40%,60%">
+                <frame src="" name="y" />
+                <frame src="" name="pu" />
+            </frameset>
+        </frameset>
+
+    </frameset>
+
+</frameset>
+
+</html>
