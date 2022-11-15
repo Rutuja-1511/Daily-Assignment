@@ -6,7 +6,7 @@
 <h1><center>YOU ARE LOGGED IN SUCCESSFULLY</center></h1>
 <p>
 <b>
-SEND YOUR FEEDBACK</b> &nbsp
+GIVE YOUR FEEDBACK</b> &nbsp
 <input type="radio" name="r1" value="ra" />WORST
 <input type="radio" name="r1" value="rb" />GOOD
 <input type="radio" name="r1" value="rc" />BETTER
