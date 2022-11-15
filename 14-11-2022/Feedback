@@ -1,0 +1,21 @@
+<html>
+<head>
+<tittle>feedback.html</tittle>
+</head>
+<body bgcolor="Green">
+<h1><center>YOU ARE LOGGED IN SUCCESSFULLY</center></h1>
+<p>
+<b>
+SEND YOUR FEEDBACK</b> &nbsp
+<input type="radio" name="r1" value="ra" />WORST
+<input type="radio" name="r1" value="rb" />GOOD
+<input type="radio" name="r1" value="rc" />BETTER
+<input type="radio" name="r1" value="rd" />BEST
+<input type="radio" name="r1" value="re" />EXCELENT
+<p>
+<input type ="submit" value="submit">
+<p>
+<a href="resister.html">
+<button type="button">RESET</button>
+</body>
+</html>
